@@ -8,14 +8,22 @@
 </head>
 <body>
     <form class="register-form">
-        <input type="text"  placeholder="Podaj wartosc dla rejestru AH">
-        <input type="text"  placeholder="Podaj wartosc dla rejestru AL">
-        <input type="text"  placeholder="Podaj wartosc dla rejestru BH">
-        <input type="text"  placeholder="Podaj wartosc dla rejestru BL">
-        <input type="text"  placeholder="Podaj wartosc dla rejestru CH">
-        <input type="text"  placeholder="Podaj wartosc dla rejestru CL">
-        <input type="text"  placeholder="Podaj wartosc dla rejestru DH">
-        <input type="text"  placeholder="Podaj wartosc dla rejestru DL">
+        <input type="text" required data-name="AH" placeholder="Podaj wartosc dla rejestru AH">
+        <p class="error-message" data-name="AH" >  </p>
+        <input type="text" required  data-name="AL" placeholder="Podaj wartosc dla rejestru AL">
+        <p class="error-message" data-name="AL" >  </p>
+        <input type="text" required  data-name="BH" placeholder="Podaj wartosc dla rejestru BH">
+        <p class="error-message" data-name="BH">  </p>
+        <input type="text" required data-name="BL" placeholder="Podaj wartosc dla rejestru BL">
+        <p class="error-message" data-name="BL">  </p>
+        <input type="text" required data-name="CH" placeholder="Podaj wartosc dla rejestru CH">
+        <p class="error-message" data-name="CH">  </p>
+        <input type="text" required data-name="CL" placeholder="Podaj wartosc dla rejestru CL">
+        <p class="error-message" data-name="CL">  </p>
+        <input type="text" required data-name="DH" placeholder="Podaj wartosc dla rejestru DH">
+        <p class="error-message" data-name="CL">  </p>
+        <input type="text" required data-name="DL" placeholder="Podaj wartosc dla rejestru DL">
+        <p class="error-message" data-name="DL">  </p>
         <button type="submit"> Dalej </button>
     </form>
     <script src="main.js"></script>

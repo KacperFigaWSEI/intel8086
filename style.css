@@ -10,3 +10,6 @@
     width: 500px;
     margin: auto;
 }
+.error-message{
+    color: red;
+}
