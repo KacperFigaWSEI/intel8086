@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.register-form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 500px;
+    margin: auto;
+}
