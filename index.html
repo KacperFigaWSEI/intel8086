@@ -1,31 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>INTEL 8086</title>
-</head>
-<body>
-    <form class="register-form">
-        <input type="text" required data-name="AH" placeholder="Podaj wartosc dla rejestru AH">
-        <p class="error-message" data-name="AH" >  </p>
-        <input type="text" required  data-name="AL" placeholder="Podaj wartosc dla rejestru AL">
-        <p class="error-message" data-name="AL" >  </p>
-        <input type="text" required  data-name="BH" placeholder="Podaj wartosc dla rejestru BH">
-        <p class="error-message" data-name="BH">  </p>
-        <input type="text" required data-name="BL" placeholder="Podaj wartosc dla rejestru BL">
-        <p class="error-message" data-name="BL">  </p>
-        <input type="text" required data-name="CH" placeholder="Podaj wartosc dla rejestru CH">
-        <p class="error-message" data-name="CH">  </p>
-        <input type="text" required data-name="CL" placeholder="Podaj wartosc dla rejestru CL">
-        <p class="error-message" data-name="CL">  </p>
-        <input type="text" required data-name="DH" placeholder="Podaj wartosc dla rejestru DH">
-        <p class="error-message" data-name="CL">  </p>
-        <input type="text" required data-name="DL" placeholder="Podaj wartosc dla rejestru DL">
-        <p class="error-message" data-name="DL">  </p>
-        <button type="submit"> Dalej </button>
-    </form>
+  </head>
+  <body>
+    <div>
+      <form class="register-form">
+        <div>
+          <input
+            type="text"
+            required
+            data-name="AH"
+            placeholder="Podaj wartosc dla rejestru AH"
+          />
+          <p class="error-message" data-name="AH"></p>
+        </div>
+        <div>
+          <input
+            type="text"
+            required
+            data-name="AL"
+            placeholder="Podaj wartosc dla rejestru AL"
+          />
+          <p class="error-message" data-name="AL"></p>
+        </div>
+        <div>
+          <input
+            type="text"
+            required
+            data-name="BH"
+            placeholder="Podaj wartosc dla rejestru BH"
+          />
+          <p class="error-message" data-name="BH"></p>
+        </div>
+        <div>
+          <input
+            type="text"
+            required
+            data-name="BL"
+            placeholder="Podaj wartosc dla rejestru BL"
+          />
+          <p class="error-message" data-name="BL"></p>
+        </div>
+        <div>
+          <input
+            type="text"
+            required
+            data-name="CH"
+            placeholder="Podaj wartosc dla rejestru CH"
+          />
+          <p class="error-message" data-name="CH"></p>
+        </div>
+        <div>
+          <input
+            type="text"
+            required
+            data-name="CL"
+            placeholder="Podaj wartosc dla rejestru CL"
+          />
+          <p class="error-message" data-name="CL"></p>
+        </div>
+        <div>
+          <input
+            type="text"
+            required
+            data-name="DH"
+            placeholder="Podaj wartosc dla rejestru DH"
+          />
+          <p class="error-message" data-name="CL"></p>
+        </div>
+        <div>
+          <input
+            type="text"
+            required
+            data-name="DL"
+            placeholder="Podaj wartosc dla rejestru DL"
+          />
+          <p class="error-message" data-name="DL"></p>
+        </div>
+      </form>
+      <button class="submit-register" type="submit">Dalej</button>
+    </div>
+
     <script src="main.js"></script>
-</body>
+  </body>
 </html>
