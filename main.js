@@ -26,11 +26,14 @@ const validateRegisry = (e) => {
   registryInputs.forEach((register, i) => {
     console.log(register.value, register.dataset.name);
     registerObj[register.dataset.name] = register.value;
+    console.log(register.value);
     if (!register.value) {
       errorBoxes[i].textContent = errorObj("EMPTY") + register.dataset.name;
-    } else if (!/^#[0-9A-F]{6}[0-9a-f]{0,2}$/i.test(register.value)) {
+    } else if (!/^[0-9A-Fa-f]+$/g.test(register.value)) {
       console.log("truftuut");
       errorBoxes[i].textContent = errorObj("TYPE_ERROR");
+    } else {
+      errorBoxes[i].textContent = "";
     }
   });
 
