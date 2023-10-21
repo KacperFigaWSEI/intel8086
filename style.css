@@ -18,7 +18,8 @@
   margin-top: 0.4em;
 }
 
-.register-form > div > input {
+.register-form > div > input,
+select {
   background-color: #fff;
   width: 220px;
   height: 50px;
@@ -28,7 +29,8 @@
   border-radius: 2px;
 }
 
-.submit-register {
+.submit-register,
+.execute {
   border-radius: 2px;
   display: block;
   cursor: pointer;
@@ -36,4 +38,10 @@
   padding: 1em 2.5em;
   margin: 3em auto;
   border: 1px solid rgb(75, 75, 75);
+}
+
+.select-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
 }

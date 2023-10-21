@@ -82,7 +82,44 @@
           <p class="error-message" data-name="DL"></p>
         </div>
       </form>
-      <button class="submit-register" type="submit">Dalej</button>
+      <button class="submit-register" type="submit">
+        Zapisz wartości rejestrów
+      </button>
+
+      <div class="operation-wrapper">
+        <div class="select-wrapper">
+          <select id="selected-register-a">
+            <option value="">Wybierz pierwszy rejester</option>
+            <option value="AH">AH</option>
+            <option value="AL">AL</option>
+            <option value="BH">BH</option>
+            <option value="BL">BL</option>
+            <option value="CH">CH</option>
+            <option value="CL">CL</option>
+            <option value="DH">DH</option>
+            <option value="DL">DL</option>
+          </select>
+
+          <select id="selected-register-b">
+            <option value="">Wybierz drugi rejester</option>
+            <option value="AH">AH</option>
+            <option value="AL">AL</option>
+            <option value="BH">BH</option>
+            <option value="BL">BL</option>
+            <option value="CH">CH</option>
+            <option value="CL">CL</option>
+            <option value="DH">DH</option>
+            <option value="DL">DL</option>
+          </select>
+
+          <select id="selected-operation">
+            <option value="">Wybierz operacje</option>
+            <option value="MOV">MOV</option>
+            <option value="XCHG">XCHG</option>
+          </select>
+        </div>
+        <button class="execute">Wywołaj</button>
+      </div>
     </div>
 
     <script src="main.js"></script>
